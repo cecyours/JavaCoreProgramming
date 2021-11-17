@@ -1,11 +1,15 @@
 
-
+import java.util.Scanner;
 public class CH02_ObjectFTStudent{
 	
 	public static void main(String[] args) {
 		
-		 Student s = new Student();
+			Scanner sc = new Scanner(System.in);
 
+		 Student s = new Student();
+		 // ---
+
+		 // --
 		 s.setName("Heema");
 
 		 System.out.println("Hello "+s.getName());
