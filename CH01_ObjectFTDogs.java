@@ -8,11 +8,6 @@ public class CH01_ObjectFTDogs{
     public static void main(String[] args) {
         
         System.out.println("Hello World..."+args[0]);
-
-        /**
-         * for(i=0;i<5;i++)
-         * 
-        */
         
         for(String me:args)
         {
@@ -20,19 +15,22 @@ public class CH01_ObjectFTDogs{
         }
        
         Dog d = new Dog();
+        // className objectName = new ClassName();
 
         d.color = "red";
         d.age = 2;
         d.name ="vodaphone vala Kutta";
         
-            d.bark();
+        d.bark();
         System.out.println("name : "+d.name);
         System.out.println("color : "+d.color);
         System.out.println("age :"+d.age);
-        // className objectName = new ClassName();
+        
     }
 }
-// class = members(variable):private + fuction(method):public
+
+
+// class = members(variable):private + function(method):public
 
 /**
  * properity : variable
@@ -44,7 +42,7 @@ class Dog{
     int age;
     String name;
 
-    void bark()
+    void bark() //process
     {
         System.out.println(name+" is barking....\n");
     }
