@@ -8,9 +8,10 @@ public class CH02_ObjectFTStudent{
 
 		 Student s = new Student();
 		 // ---
-
+		 	System.out.print("Enter name : ");
+		 	String code = sc.nextLine();
 		 // --
-		 s.setName("Heema");
+		 s.setName(code);
 
 		 System.out.println("Hello "+s.getName());
 
