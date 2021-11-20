@@ -3,7 +3,7 @@
     NOTE :
     class name is same as file name if you want declare class as public or generate .class file.
 */ 
-public class CH01_ObjectFTDogs{
+public class CH01_P01_ObjectFTDogs{
 
     public static void main(String[] args) {
         

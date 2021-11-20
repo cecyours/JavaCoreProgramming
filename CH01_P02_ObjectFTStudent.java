@@ -1,11 +1,11 @@
 
 import java.util.Scanner;
 
-public class CH02_ObjectFTStudent{
+public class CH01_P02_ObjectFTStudent{
 	
 	public static void main(String[] args) {
 		
-			Scanner sc = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
 
 		 Student s = new Student();
 		 // ---
@@ -15,7 +15,6 @@ public class CH02_ObjectFTStudent{
 		 s.setName(code);
 
 		 System.out.println("Hello "+s.getName());
-
 	}
 }
 
