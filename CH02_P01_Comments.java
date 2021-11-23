@@ -32,3 +32,19 @@ public class CH02_P01_Comments{
 
 	}
 }
+
+
+class HomeWork{
+/**
+ * 
+ * 1. perform all arithmetic operation on 2 variable
+ * 2. Write a method which display sum of 2 numbers
+ * 3. write a method which display difference between C++ & java
+ * 
+ * 
+ * */
+	public HomeWork()
+	{
+		System.out.println("Please, Finishe your HOMEWORK.");
+	}
+}
