@@ -5,6 +5,7 @@ public class CH02_P02_ImportClasse_com_iterest{
 	
 	public static void main(String[] args) {
 		
+		float pe=2.3;
 		int n,p,t;
 		float r;
 		double A;
