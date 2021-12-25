@@ -30,6 +30,8 @@ class CH03_P06_WhileLoop{
 
 		 		if(f)
 		 		{
+		 			if(num<=30 && num>=21)
+		 				continue; //can we skip to the good part :)
 		 			System.out.println("Prime "+num);
 		 		}
 		 		else

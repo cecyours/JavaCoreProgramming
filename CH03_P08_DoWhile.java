@@ -4,40 +4,18 @@ class CH03_P06_WhileLoop{
 		
 		Scanner sc = new Scanner(System.in);
 
- 		int num,n,i=2;
+ 		int n;
 
  		boolean f = true;
  		System.out.print("Enter num : ");
  		n = sc.nextInt();
 
- 		
-		// num = (int)num/2; 		
+ 		 do
+		 {
+		 	
+		 	System.out.println("Line "+n);
+		 	n--;
+		 }while(n>0);		
 
- 		for(int j = 2; j<=n ; j++)
- 		{
- 			num = j;
- 			i=2;
- 			f = true;
-		 			while(i<=(int)num/2)
-			 		{
-			 			if(num%i==0)
-			 			{
-			 				f = false;
-			 				break;
-			 			}
-			 			i++;
-			 		}
-
-		 		if(f)
-		 		{
-		 			System.out.println("Prime "+num);
-		 		}
-		 		else
-		 		{
-		 			// System.out.println("NOnPrime "+num);
-		 		}
-
-
- 		}
 	}
 }
