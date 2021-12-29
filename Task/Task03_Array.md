@@ -12,3 +12,9 @@
 	```
 
 2. write a program to find all numbers which are prime from an array.
+
+	```html
+		<b>like [2,5,9,4,3] is an array But</b> 
+			2,5,3 are prime numbers. 
+		so Display on
+	```
