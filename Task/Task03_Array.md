@@ -24,7 +24,7 @@
 4. Write a program to display count of zeroes presents are in array
 
 	```java
-			like [2,3,40,4,0,0,2]
+			like [-4,3,40,4,0,0,5]
 			There are 2 Zeroes in the array;
 		 
 	```
