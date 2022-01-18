@@ -27,6 +27,12 @@ class Home{
 		 s.replace(0,5,"Stark");
 		 System.out.println("replace : "+s);
 
+		 str = s.substring(5);
+		 System.out.println("substring : "+str);
+
+		 str = s.substring(5,10);
+		 System.out.println("substring : "+str);
+		 
 	}
 }
 // class H{
