@@ -24,6 +24,8 @@ class Home{
 		 System.out.println("indexOf : "+s.indexOf("peter"));
 		 System.out.println("lastIndexOf : "+s.lastIndexOf("peter"));
 
+		 s.replace(0,5,"Stark");
+		 System.out.println("replace : "+s);
 
 	}
 }
