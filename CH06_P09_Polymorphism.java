@@ -4,8 +4,8 @@ class CH06_P09_Polymorphism  {
 		Code code = new Code();
 		int a=19,b=3,c=10;
 
-		System.out.println("Sum : "+code.sum());
 		System.out.println("Sum : "+code.sum(a,c));
+		System.out.println("Sum : "+code.sum());
 		System.out.println("Sum : "+code.sum(a,a,b));
 
 	}
