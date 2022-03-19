@@ -7,6 +7,7 @@ class P22_copyFile {
 		  String sfile = sc.next();  
 		  System.out.print("Provide destination file name :");  
 		  String dfile = sc.next();  
+		  
 		  FileReader fin = new FileReader(sfile);  
 		  FileWriter fout = new FileWriter(dfile, true);  
 		  int c;  
